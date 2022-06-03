@@ -7,7 +7,15 @@ import './App.css';
 
 const App = () => {
   return (
-    <h1 className='underline text-3x1'>App</h1>
+    <div>
+        <BrowserRouter>
+            <div className="flex relative dark:bg-main-dark-bg">
+                <div className='fixed right-4 bottom-4' style={{ zIndex: '1000' }}>
+
+                </div>
+            </div>
+        </BrowserRouter>
+    </div>
   )
 }
 
